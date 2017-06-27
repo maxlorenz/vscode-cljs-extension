@@ -1,0 +1,11 @@
+{:dependencies []
+
+ :source-paths ["src/cljs"]
+
+ :builds
+ {:extension
+  {:target :node-library
+   :output-wrapper true
+   :optimizations :simple
+   :exports {:activate cljs-ext.core/activate}
+   :output-to "extension.js"}}}
