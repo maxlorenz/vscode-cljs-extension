@@ -1,7 +1,7 @@
 # VSCode cljs extension
 
 An extension template for VSCode in pure cljs.
-Builds using either `lein` or `shadow-cljs`.
+Builds using `shadow-cljs`.
 
 ## Why?
 
@@ -9,14 +9,7 @@ I want to see better/more VSCode extensions for Clojure(Script). And I don't wan
 
 ## How to build & run
 
-You need either Lein or Shadow-cljs installed. (Read: Shadow-cljs as in no Java at all)
-
-```zsh
-> lein cljsbuild once # or auto
-Compiling ClojureScript...
-Compiling "extension.js" from ["src/cljs"]...
-Successfully compiled "extension.js" in 6.992 seconds.
-```
+You need [shadow-cljs](https://github.com/thheller/shadow-cljs) installed.
 
 ```zsh
 > shadow-cljs compile extension
